@@ -30,7 +30,9 @@ setup(
         "oops2=pack.my_second_node_oop:main",
         "pub=pack.first_ros_pub:main",
         "pub1=pack.second_ros_pub:main",
-        "sub=pack.first_ros_sub:main"
+        "sub=pack.first_ros_sub:main",
+        "pub2=pack.pub_ascii:main",
+        "sub2=pack.sub_ascii:main"
     ],
 },
 )
