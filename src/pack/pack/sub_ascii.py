@@ -10,11 +10,12 @@ class ascii_sub(Node):
 
     def sub(self,msg):
         val = msg.data
-        print(val)
+        print("Received:", val)
+        
         for char in val:
-            ascii_val=ord(char)
-            print(ascii_val)
-
+            ascii_val = ord(char)
+            print(f"{char} → {ascii_val}")
+            
 def main(args=None):
     rclpy.init(args=args)
     node = ascii_sub()
