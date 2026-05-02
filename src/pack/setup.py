@@ -32,7 +32,11 @@ setup(
         "pub1=pack.second_ros_pub:main",
         "sub=pack.first_ros_sub:main",
         "pub2=pack.pub_ascii:main",
-        "sub2=pack.sub_ascii:main"
+        "sub2=pack.sub_ascii:main",
+        "pub3=pack.fib_pub:main",
+        "sub3=pack.fib_sub:main",
+        "pub4=pack.large_pub:main",
+        "sub4=pack.large_sub:main"
     ],
 },
 )
