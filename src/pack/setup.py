@@ -36,7 +36,8 @@ setup(
         "pub3=pack.fib_pub:main",
         "sub3=pack.fib_sub:main",
         "pub4=pack.large_pub:main",
-        "sub4=pack.large_sub:main"
+        "sub4=pack.large_sub:main",
+        "turtle_A=pack.turtle_1:main"
     ],
 },
 )
